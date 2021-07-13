@@ -4,56 +4,40 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dashboard</title>
-   	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
-	<script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
-	<link href="style.css" rel="stylesheet">
+    <title>SellbetterApp</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <nav class="header">
-        <img class="logo" src="logo2.png">
-        <div class="logout">
-            <h2>Logged in as Lucky Rami</h2>
-            <p><a href="http://127.0.0.1:5500/Sign%20in/index.html">
-                <img src="logout.png">
-            </a></p>
+      
+        <div class="box">
+            <img src="logo.png" alt="">
+            <h1>Sign Up</h1>
+            <h2>Please enter your details to get started.</h2>
+            <hr class="rounded">
+            <form>
+                <div class="inputBox">
+                    <input type="text" name="" required placeholder="Your name..">
+                    <label>Fullname</label>
+                </div> 
+                <div class="inputBox">
+                    <input type="tel" name="" required placeholder="0801...">
+                    <label>Phone number</label>
+                </div>
+                <div class="inputBox">
+                    <input type="email" name="" optional placeholder="johndoe@sellbetter.app">
+                    <label>Email Address</label>
+                </div>
+                <div class="inputBox">
+                    <input type="password" name="" required placeholder="****">
+                    <label>Password</label>
+                </div>
+                    <input type="submit" name="" value="Submit">  
+            </form>
         </div>
-        <div class="topnav">
-            <a class="active" href="#home">Home</a>
-            <a class="box" href="http://127.0.0.1:5500/Records/index.html">Records</a>
-            <a class="box" href="http://127.0.0.1:5500/Settins/index.html">Settings</a>
-            <a class="box" href="#">Support</a>
-          </div>
-          <div>
-            <button class="rq-btn"> 
-                <h6 class="pad1">WANT TO DO MORE WITH SELLBETTER ?</h6>
-                <h2 class="pad2">Request a feature</h2> <link href="http://127.0.0.1:5501/Request%20Form/index.html">
-                <img class="right" src="right-arrow.svg" alt="">
-            </button>
-          </div>
-    </nav>
-    <div class="msale">
-        <h6>MAKE SALES & KEEP RECORD</h6>
-        <h2>Sell now</h2>
-        <form>
-            <div class="inputBox2">
-                <textarea name="message" rows="10" cols="30" placeholder="Type the items you want to sell.."></textarea>
-                <label>Item Name and Description</label>
-            </div> 
-            <div class="inputBox">
-                <input type="number" text="" required placeholder="&#8358;">
-                <label>Amount Sold for</label>
-            </div> 
-                <input type="submit" name="sell" value="Sell & Save">  
-        </form>
+        <div class="login">
+            <p>Already have an account? <a href="#">Log In here!</a> </p>
+        </div>
     </div>
-    <div class="footer">
-        <p>Copyright Sellbetter 2021</p>
 
-    </div>
-    
 </body>
 </html>
